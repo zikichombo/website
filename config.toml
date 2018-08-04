@@ -1,0 +1,30 @@
+baseURL = "http://zikichombo.org/"
+languageCode = "en-us"
+title = "ZikiChombo"
+theme = "engimo"
+
+[menu]
+
+  [[menu.main]]
+		identifier = "Home"
+		name = "ZikiChombo"
+		url = "/"
+		weight = 1
+
+  [[menu.main]]
+		name = "Projects"
+    url = "/projects"
+		weight = 10
+
+	[[menu.main]]
+		name = "Contributing"
+		url = "/contrib/"
+		weight = 30
+
+  [[menu.main]]
+		identifier = "About"
+		name = "About"
+		url = "/about/"
+		weight = 20
+
+
