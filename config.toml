@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "ZikiChombo"
 theme = "engimo"
 
+[params.assets]
+	customCSS = ["custom.css"]
+
+[params.settings]
+	accentColor = "#dda0dd"
+
 [menu]
 
   [[menu.main]]
@@ -26,5 +32,7 @@ theme = "engimo"
 		name = "About"
 		url = "/about/"
 		weight = 20
+
+
 
 
