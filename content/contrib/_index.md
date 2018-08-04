@@ -1,7 +1,7 @@
 ---
 title: "Contributing"
 date: 2018-08-03T19:26:29+02:00
-draft: true
+draft: false
 ---
 
 ```

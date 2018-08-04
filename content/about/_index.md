@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2018-08-03T18:43:52+02:00
-draft: true
+draft: false
 ---
 
 The name _ZikiChombo_ comes from the swahili "Muziki Chombo"  Muziki means
