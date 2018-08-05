@@ -26,7 +26,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "IRI France, SAS"
+holder = "ZikiChombo Organization"
 startYear = "2018"
 suffix = ""
 
