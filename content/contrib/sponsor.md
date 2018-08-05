@@ -51,8 +51,8 @@ We'll shout your name from the rooftops!
 ### Earmarks/Bounties
 You can earmark your sponsorship for specific goals and functionality
 and be provided with or have published how the funds were spent via
-issue tracker tags.  However, our members reserve the right to prioritize 
-their work based on community-wide demand.
+issue tracker tags.  However, our members reserve the right and have 
+a duty to prioritize their work based on community-wide demand.
 
 ### Paraphenalia
 We are looking forward to seeing some rockin, drum thwacking, deep rhythm

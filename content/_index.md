@@ -31,7 +31,13 @@ Each is hosted in its own git repository.
 Our code is hosted on github under the zikichombo organisation.
 
 ```sh
-go get zikichombo.org/sound...
+go get zikichombo.org/sound
+go get zikichombo.org/sio
+go get zikichombo.org/codec
+go get zikichombo.org/dsp
+go get zikichombo.org/ioval
+go get zikichombo.org/plug
+go get zikichombo.org/plugx
 ```
 
 Try the examples, build an app, read the code and join the discussions.

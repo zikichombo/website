@@ -6,22 +6,6 @@ viz: true
 
 ### Overview
 
-ZikiChombo code projects have the following hierarchy
-
-```
-sound
-|-- codec
-|-- sio
-|-- ioval
-|-- plug
-|-- plugx
-|-- dsp
-```
-
-Each project is a collection of go packages, also a go module, rooted at the project's name.
-Note that the sound project has several subpackages at the same package
-"hierarchy" level as the other projects.
-
 ZikiChombo projects have the following dependencies
 ```viz-dot
   digraph g { 
@@ -47,7 +31,7 @@ ZikiChombo projects have the following dependencies
 
 Our development roadmap follows dependency order.  The less dependent 
 projects are the most mature.  Our bandwidth for advancing depends on
-your support.
+your support and engagement.
 
 ## Rough status and development order
 
@@ -102,6 +86,31 @@ support is not in our interest to incorporate.
 Given ffmpeg and friends, This may hurt for a while, but it will pay off.  In
 the meantime, since apple has OS-level support for sound codecs, we are
 considering taking advantage of that.
+
+## Repositories and Code Hosting
+Each project P is hosted at github.com/zikichombo/P.
+
+Each project makes use of github releases, semantic version tags,
+github issue tracking and pull requests.
+
+The issue tracker is our best tool for keeping track of technical discussions
+so feel free to file an issue if only to discuss some technical aspect
+of the respective project.
+
+## Code of Conduct
+We're not so into regulating behavior but we will be firm about 
+requesting respectful dialogue geared toward project and organisation goals.
+
+Some things to keep in mind are that newcomers opinions and questions
+are extremely valuable in achieving simplicity.  By default, the responsability 
+for newcomer confusion is on the project and organisation shoulders.  It 
+doesn't help to point them to some dark corner in a maze of documentation and
+issues, implying they should have seen that and spent months or years reading 
+everything before asking. The question could well have come up because we weren't 
+clear or organised enough.
+
+
+
 
 
 
