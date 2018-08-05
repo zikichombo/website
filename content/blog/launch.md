@@ -60,7 +60,7 @@ playing and recording on dozens of platforms and dozens of codecs and having
 their work automatically hosted as VSTs and AudioUnits readily integrated into 
 dozens of widely used DAWs, synths, etc.  I wanted to do some new things, had some
 successes and failures and many rounds of putting my foot in my mouth with 
-DSP know-how ^[1].  I believe my successes would be on the market and used if I had
+DSP know-how [^1].  I believe my successes would be on the market and used if I had
 not chosen my favorite langage, Go.
 
 Instead, the best I could offer anyone was "uh here's a wave file and some darwin i/o
@@ -122,7 +122,7 @@ Enough manifesto trumpeting.  Time to get back to the code.  See ya, respectfull
 in the forums.
 
 
-^[1]: As a bonafied PhD in applied mathematics without former DSP experience,
+[^1]: As a bonafied PhD in applied mathematics without former DSP experience,
 I found this journey deep, interesting, and learnable.  I speak hence not
 as a bonafied DSP expert but rather as someone who takes the time to do the proofs
 and learn the relevant terminology and notation and to try crazy practically useless 

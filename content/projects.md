@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2018-08-03T19:26:43+02:00
-flowchart: true
+viz: true
 ---
 
 ### Overview
@@ -18,22 +18,31 @@ sound
 |-- dsp
 ```
 
-Each project is a collection of go packages rooted at the projects name.
+Each project is a collection of go packages, also a go module, rooted at the project's name.
 Note that the sound project has several subpackages at the same package
 "hierarchy" level as the other projects.
 
 ZikiChombo projects have the following dependencies
+```viz-dot
+  digraph g { 
+  sound[label="sound"]
+  sio[label="sio"]
+  plug[label="plug"]
+  plugx[label="plugx"]
+  dsp[label="dsp"]
+  ioval[label="ioval"]
+  codec[label="codec"]
 
-
-```
   dsp->plug
   plug->sound
+  sio->sound
   codec->sound
   plugx->sound
   plugx->sio
   plug->sound
   plug->ioval
   ioval->sound
+  }
 ```
 
 Our development roadmap follows dependency order.  The less dependent 
