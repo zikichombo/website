@@ -53,7 +53,8 @@ of them in a very non-Go like way.
 Go is a perfectly capable programming language I guess about a decade old now,
 and brings with it a lot of plan9 and inferno related technology, IP, and 
 practical computer science giants.  Lots of folks, including yours truly, 
-have thought and will continue to think "hey lets do audio in Go".  
+have thought and will continue to think "hey lets do audio in Go".  Many 
+will also think lets do so with commercial grade reliability.
 
 Frankly, this delusion nearly ended my financial independence.  Others are out there
 playing and recording on dozens of platforms and dozens of codecs and having 
@@ -66,30 +67,35 @@ not chosen my favorite langage, Go.
 Instead, the best I could offer anyone was "uh here's a wave file and some darwin i/o
 and text output and if you measure the results, they are good".
 
-Putting all this into the context of internet and web uis meant all latency requirements
-for realtime would have to immediately go out the window.  Which brings us to...
+The fundamental problem was lack of libraries and lack of interoperability of libraries.
+I had underestimated the role of the software language ecosystem in the field.
 
-#### The latency problem on Android
-Android has a problem with audio latency, using AudioSlinger as a pulse-audio replacement
-which adds an extra layer on top of the hardware drivers.
+This problematic touches on all developers.  It also makes work like Oto and
+Beep quite interesting.  They are 1-person projects which accomplish a lot and 
+show successful interdependence.  But they are far from a basis on which to turn
+for audio support because the functionality is very incomplete.  They serve more
+like proof of concepts with very narrow general applicability.  
 
-The latency reduces the appropriateness of Android for real-time music apps because 
-you cannot feel comfortable, at least as a musician, having 30-50ms delays between
-your input and the output.
+I think all of us would like to be able to do input and output, sometimes
+duplex in a way which interacts with codecs, processing, operations and
+controllers on a variety of common platforms.  Moreover, not addressing all
+this with a global eye on composability will inevitably render simplicity
+unattainable due to dependency and integration overhead.  We can't do that
+without projects like Oto and Beep. 
 
-Apple nailed the latency problem, at least in that they lifted low level audio access to 
-high levels more directly by providing OS level support based on AudioUnits.
+There is a need to address this, and an open source community has the potential
+to do so in a long lasting reliable way.
 
 ### What should happen
-
-Go needs to nail the architecture to be useful.  Unfortunately, it doesn't seem that 
-Google in all its might is doing what it takes to get there.  For one thing the 
-Core Gophers don't have audio in their culture.  For another, Go invites fresh
-ways of approaching problems by taking the software engineering approach, which 
-implicitly often devalues domain expertise in favor of the authority of plain ol 
-CS smarts.  While that works well in some contexts, Audio processing is too deep 
-mathematically, scientifically, and culturally for this.  The CS smarts needs to 
-remain respectfully in service of the end goals here.
+Go needs to nail the architecture to be useful in this domain.  Unfortunately,
+it doesn't seem that Google in all its might is doing what it takes to get
+there.  For one thing the Core Gophers don't have audio in their culture.  For
+another, Go invites fresh ways of approaching problems by taking the software
+engineering approach, which implicitly often devalues domain expertise in favor
+of the authority of plain ol CS smarts.  While that works well in some
+contexts, Audio processing is too deep mathematically, scientifically, and
+culturally for this.  The CS smarts needs to remain respectfully in service of
+the end goals here.
 
 ### Problems are Opportunities.
 This problem presents us with many opportunities.  It presents us with an
@@ -122,9 +128,4 @@ Enough manifesto trumpeting.  Time to get back to the code.  See ya, respectfull
 in the forums.
 
 
-[^1]: As a bonafied PhD in applied mathematics without former DSP experience,
-I found this journey deep, interesting, and learnable.  I speak hence not
-as a bonafied DSP expert but rather as someone who takes the time to do the proofs
-and learn the relevant terminology and notation and to try crazy practically useless 
-variations like inversing FFT inversion to see when it breaks things, just 
-to learn how it works.
+[^1]: As a bonafied PhD in applied mathematics without former DSP experience, I found this journey deep, interesting, and learnable.  I speak hence not as a bonafied DSP expert but rather as someone who takes the time to do the proofs and learn the relevant terminology and notation and to try crazy practically useless variations like inversing FFT inversion to see when it breaks things, just to learn how it works.
