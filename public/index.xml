@@ -33,5 +33,15 @@ Filing issues The filing of issues comprises major and irreplacable contribution
 Send us pull requests You can send pull requests, and we can incorporate them after review.</description>
     </item>
     
+    <item>
+      <title>Launch!</title>
+      <link>http://zikichombo.org/blog/launch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zikichombo.org/blog/launch/</guid>
+      <description>Launching zikichombo We have decided to launch ZikiChombo after careful consideration of our own private work and several interesting public go audio projects, discussions, and proposals.
+Background. In 2015, Rakyll proposed. audio I/O in the scope of the go mobile project. This project has sparked a lot of interest amongst gophers, giving rise to the shiny interface for example. The scope of the proposal was in our opinion a bit too focused on Android and Go access to mobile apps, and decided to use openal as the backing component.</description>
+    </item>
+    
   </channel>
 </rss>

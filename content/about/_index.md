@@ -15,12 +15,12 @@ LLC.  The company manages ZikiChombo in accordance with the goals and methods
 presented here.
 
 Go is a great language, and it is general purpose.  Some may conclude that
-commercial grade audio applications are well within Go's reach, and from
-a language perspective they are.  But from an ecosystem perspective, they are,
-at least in general, definitely not.  ZikiChombo provides one niche ecosystem
-for developers working with Sound in Go, to be part of providing the world's
-first solution achieving simple, reliable, and efficient sound processing 
-software tools.
+commercial grade audio applications are well within Go's reach, and from a
+language perspective they are.  But from an ecosystem perspective, they are, at
+least in general, definitely not.  ZikiChombo is here to fix that, providing
+one niche ecosystem for developers working with Sound in Go, to be part of
+providing the world's first solution achieving at once simple, reliable, and
+efficient sound processing software tools.
 
 
 

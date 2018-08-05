@@ -38,8 +38,17 @@
   </url>
   
   <url>
+    <loc>http://zikichombo.org/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zikichombo.org/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/blog/launch/</loc>
   </url>
   
   <url>
