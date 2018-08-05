@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ZikiChombo</title>
-    <link>http://zikichombo.org/</link>
-    <description>Recent content on ZikiChombo</description>
+    <title>Contributing on ZikiChombo</title>
+    <link>http://zikichombo.org/contrib/</link>
+    <description>Recent content in Contributing on ZikiChombo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Aug 2018 19:26:29 +0200</lastBuildDate>
     
-	<atom:link href="http://zikichombo.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://zikichombo.org/contrib/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

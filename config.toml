@@ -3,11 +3,112 @@ languageCode = "en-us"
 title = "ZikiChombo"
 theme = "engimo"
 
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+enableEmoji = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+
 [params.assets]
-	customCSS = ["custom.css"]
+
+favicon = "favicon.ico"
+customCSS = ["custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "IRI France, SAS"
+startYear = "2018"
+suffix = ""
 
 [params.settings]
-	accentColor = "#dda0dd"
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+taxonomyCloudShuffle = true
+hideMainMenu = false
+accentColor = "#dda0dd"
+
+[params.sidebar]
+enable = false
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+email = "web@zikicbhombo.org"
+github = "zikichombo"
+
+[params.comments]
+enable = false
+
+[params.comments.staticman]
+enable = true
+apiEndpoint = "https://api.staticman.net/v2/entry"
+maxDepth = 2
+
+[params.comments.staticman.github]
+username = "zikichombo"
+repository = "sound"
+branch = "master"
+
+# Utterances: https://utteranc.es
+[params.comments.utterances]
+enable = false
+issueTerm = "pathname" # pathname / url / title
+
+[params.comments.utterances.github]
+username = "achary"
+repository = "engimo"
+
+[params.search]
+client = "fuse" # algolia / fuse / lunr
+
+[params.search.algolia]
+appId = ""
+indexName = ""
+searchApiKey = ""
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
+
 
 [menu]
 
@@ -22,16 +123,23 @@ theme = "engimo"
     url = "/projects"
 		weight = 10
 
-	[[menu.main]]
-		name = "Contributing"
-		url = "/contrib/"
-		weight = 30
+  [[menu.main]]
+		name = "Code"
+		weight = 15
+		identifier = "repository"
+		url = "https://github.com/zikichombo"
 
   [[menu.main]]
 		identifier = "About"
 		name = "About"
 		url = "/about/"
 		weight = 20
+
+	[[menu.main]]
+		name = "Contributing"
+		url = "/contrib/"
+		weight = 30
+
 
 
 

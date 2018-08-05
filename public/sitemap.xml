@@ -3,17 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://zikichombo.org/projects/</loc>
+    <lastmod>2018-08-03T19:26:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/contrib/sponsor/</loc>
+    <lastmod>2018-08-03T19:26:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/contrib/</loc>
+    <lastmod>2018-08-03T19:26:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/contrib/dev/</loc>
+    <lastmod>2018-08-03T19:26:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/about/</loc>
+    <lastmod>2018-08-03T18:43:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/</loc>
+    <lastmod>2018-08-03T19:26:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://zikichombo.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://zikichombo.org/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zikichombo.org/tags/</loc>
     <priority>0</priority>
   </url>
   

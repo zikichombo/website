@@ -19,6 +19,7 @@ features = [
   "disqus",
   "entry-navigation",
   "favicon",
+	"flowchart",
   "fuse.js",
   "lunr.js",
   "multilingual",
