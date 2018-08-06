@@ -51,7 +51,7 @@ other projects, some of which surely deserve mention here.
 All of these projects are innovative, bold, and very much struggling by comparison
 to to say AudioUnits, VSTs, JUCE, etc.  They are struggling because this is uncharted territory
 and all "the experts" are doing things for ProTools, LogicPro, Audible, etc, at least most
-of them in a very non-Go like way, most notably with a seeming fearvor for unsimplicity.
+of them in a very non-Go like way, most notably with a seeming fervour for unsimplicity.
 They are also struggling because they simply wrap other C projects, like portaudio
 supercollider, etc.
 
