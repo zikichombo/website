@@ -56,8 +56,9 @@ a duty to prioritize their work based on community-wide demand.
 
 ### Paraphenalia
 We are looking forward to seeing some rockin, drum thwacking, deep rhythm
-dancin' and even Mozart-or-Yo-Yo-Ma-esque gophers.  If you donate and send us a mail
-indicating you'd like to see your donation make some gophers rock out we'll
-task the money to an offer to engage Renée French, the original gopher (and
-plan9) designer to help.
+dancin' and even Mozart-or-Yo-Yo-Ma-esque gophers. Designs welcome 
+and we'd like to offer a prize to the winner.  If you donate and send us a mail
+indicating you'd like to see your dontation make some gophers rock we'll
+task the money to this prize.
+
 
