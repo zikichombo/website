@@ -28,8 +28,9 @@ In 2017 [Matt Aimonetti](http://github.com/mattetti)
 [proposed](https://github.com/golang/go/issues/18497) an audio package for Go.
 Perhaps the first pioneer to put Go to commercial use related to sound at
 [Splice](http://splice.com) and with a background as an audio engineer and
-music producer, his perspective on Go and audio is quite different.  This led
-to the [Go Audio Github](http://github.com/go-audio) organisation which is
+music producer, his perspective on Go and audio is quite different, driven by
+both production needs and lots of experience working with sound software. This
+led to the [Go Audio Github](http://github.com/go-audio) organisation which is
 a noble effort to consolidate audio for Go.
 
 The work above has been happily ignored by
@@ -44,25 +45,31 @@ Also worth mentioning as a point of reference is [This ALSA
 driver](https://github.com/yobert/alsa) which manages to directly talk to the
 linux kernel level ALSA without the library.
 
+There are [A myriad](https://golanglibs.com/search?q=sound&sort=top) of 
+other projects, some of which surely deserve mention here.
+
 All of these projects are innovative, bold, and very much struggling by comparison
 to to say AudioUnits, VSTs, JUCE, etc.  They are struggling because this is uncharted territory
 and all "the experts" are doing things for ProTools, LogicPro, Audible, etc, at least most
-of them in a very non-Go like way.
+of them in a very non-Go like way, most notably with a seeming fearvor for unsimplicity.
+They are also struggling because they simply wrap other C projects, like portaudio
+supercollider, etc.
 
 ### The Need
 Go is a perfectly capable programming language I guess about a decade old now,
-and brings with it a lot of plan9 and inferno related technology, IP, and 
-practical computer science giants.  Lots of folks, including yours truly, 
-have thought and will continue to think "hey lets do audio in Go".  Many 
-will also think lets do so with commercial grade reliability.
+and brings with it a lot of plan9 and inferno related technology, IP, and
+practical computer science giants.  Lots of folks, including yours truly, have
+thought and will continue to think "hey lets do audio in Go", and maybe
+moreover really in Go, not via wrappers. Many will also think lets do so with
+commercial grade reliability.  
 
-Frankly, this delusion nearly ended my financial independence.  Others are out there
-playing and recording on dozens of platforms and dozens of codecs and having 
-their work automatically hosted as VSTs and AudioUnits readily integrated into 
-dozens of widely used DAWs, synths, etc.  I wanted to do some new things, had some
-successes and failures and many rounds of putting my foot in my mouth with 
-DSP know-how [^1].  I believe my successes would be on the market and used if I had
-not chosen my favorite langage, Go.
+Frankly, this was a delusion which nearly ended my financial independence.
+Others are out there playing and recording on dozens of platforms and dozens of
+codecs and having their work automatically hosted as VSTs and AudioUnits
+readily integrated into dozens of widely used DAWs, synths, etc.  I wanted to
+do some new things, had some successes and failures and many rounds of putting
+my foot in my mouth with DSP know-how [^1].  I believe my successes would be on
+the market and used if I had not chosen my favorite langage, Go.
 
 Instead, the best I could offer anyone was "uh here's a wave file and some darwin i/o
 and text output and if you measure the results, they are good".
@@ -80,8 +87,13 @@ I think all of us would like to be able to do input and output, sometimes
 duplex in a way which interacts with codecs, processing, operations and
 controllers on a variety of common platforms.  Moreover, not addressing all
 this with a global eye on composability will inevitably render simplicity
-unattainable due to dependency and integration overhead.  We can't do that
-without projects like Oto and Beep. 
+_unattainable_ due to dependency and integration overhead.  
+
+We can't have simple composability accross the levels of codecs, I/O and
+processing _without_ cool projects like Oto and Beep, because we wouldn't have
+enough working examples to make wise choices about composability without their
+work.  But we also cannot rely on these projects to evolve with higher level
+composability outside of their scope in mind.
 
 There is a need to address this, and an open source community has the potential
 to do so in a long lasting reliable way.
@@ -103,16 +115,17 @@ opportunity to take open source sound and audio to a new level, a level
 functionally competitive with the experts, which are by and very large not open
 source.  It presents us with an opportunity for a huge variety of audio and
 sound based cloud processing, a topic where the "experts" tend to be lacking in
-culture gophers have.  It presents us with an opportunity to be bring
+culture gophers tend to have.  It presents us with an opportunity to be bring
 unprecedented simplicity to sound and audio software work, which in turn
 presents us with an opportunity to disrupt the field with an open source
 culture doing highly advanced and creative audio work with grace, ease,
 simplicity, and as developers who design and implement programs rather than
 confounding very unsimple framework know-how with expertise.
 
-From echo cancellation to polyphonic pitch detection and
-real-time-voice-mapping, 3d mixing with convolutional reverb configured for all
-source and listener positions in virtualized space, _we_ can make it happen here.
+From echo cancellation on a speakerphones to polyphonic pitch detection and
+real-time-voice-mapping, or 3d mixing with convolutional reverb configured for
+all source and listener positions in virtualized space for very high quality
+audio rendering, _we_ can make it happen here.
 
 ### Community
 For any open source project to succeed, it needs a community.  ZikiChombo is not about
@@ -122,6 +135,11 @@ which furthers our bottom line:
 
 _ZikiChombo is an open source project dedicated to providing a simple, reliable, and efficient sound
 processing and I/O library in [Go](http://golang.org)._
+
+If you are an audio developer interested in contributing your work or know-how
+to this goal, ZikiChombo is a friendly, productive place to engage.  If you're
+consistently involved enough in the topic yourself,  consider becoming a member.
+[email us](mailto:membership@zikichombo.org).
 
 ### Back to work
 Enough manifesto trumpeting.  Time to get back to the code.  See ya, respectfully,
