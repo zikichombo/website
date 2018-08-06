@@ -58,6 +58,6 @@ a duty to prioritize their work based on community-wide demand.
 We are looking forward to seeing some rockin, drum thwacking, deep rhythm
 dancin' and even Mozart-or-Yo-Yo-Ma-esque gophers.  If you donate and send us a mail
 indicating you'd like to see your donation make some gophers rock out we'll
-task the money to an offer to engage René French, the original gopher (and
+task the money to an offer to engage Renée French, the original gopher (and
 plan9) designer to help.
 
