@@ -21,7 +21,7 @@ Project  | Goal | GoDoc
   [sio](http://github.com/zikichombo/sio)    | portable I/O without external (non-Go, non-host) dependencies.| [doc](http://godoc.org/zikichombo.org/sio)
   [codec](http://github.com/zikichombo/codec)  | a generic codec interface and implementations/adaptors.| [doc](http://godoc.org/zikichombo.org/codec)
   [dsp](http://github.com/zikichombo/dsp)    | transforms, convolutions, filtering | [doc](http://godoc.org/zikichombo.org/dsp)
-  [plug](http://github.com/zikichombo/plug)   | Providing routable real-time and offline plug-in like functionality. | docs not yet available.
+  [plug](http://github.com/zikichombo/plug)   | Providing routable real-time and offline plug-in like functionality. | [doc](http://godoc.org/zikichombo.org/plug)
   [plugx](http://github.com/zikichombo/plugx)  | Providing I/O interoperability with standard plugin formats such as VST and AU. | docs not yet available
   [ioval](http://github.com/zikichombo/ioval)  | controllers and meters | docs not yet available
 
