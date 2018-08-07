@@ -35,10 +35,11 @@ go get zikichombo.org/sound
 go get zikichombo.org/sio
 go get zikichombo.org/codec
 go get zikichombo.org/dsp
+go get zikichombo.org/plug
 ```
 
 Try the examples, build an app, read the code and join the discussions.  The remaining projects
-(ioval, plug, plugx) are not yet go-gettable, feel free to join in on the design/discussion phase on github.
+(ioval, plugx) are not yet go-gettable, feel free to join in on the design/discussion phase on github.
 
 
 ### Sponsors
