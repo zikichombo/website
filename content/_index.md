@@ -15,15 +15,15 @@ high level applications which interoperate nicely.
 
 To this end, ZikiChombo has the following sub-projects
 
-Project  | Goal
----------|-----
-sound    | core sound data types, interfaces.
-  sio    | portable I/O without external (non-Go, non-host) dependencies.
-  codec  | a generic codec interface and implementations/adaptors.
-  plug   | Providing routable real-time and offline plug-in like functionality.
-  plugx  | Providing I/O interoperability with standard plugin formats such as VST and AU.
-  ioval  | controllers and meters
-  dsp    | transforms, convolutions, filtering
+Project  | Goal | GoDoc
+---------|------|------
+[sound](http://github.com/zikichombo/sound)    | core sound data types, interfaces. | [doc](http://godoc.org/zikichombo.org/sound)
+  [sio](http://github.com/zikichombo/sio)    | portable I/O without external (non-Go, non-host) dependencies.| [doc](http://godoc.org/zikichombo.org/sio)
+  [codec](http://github.com/zikichombo/codec)  | a generic codec interface and implementations/adaptors.| [doc](http://godoc.org/zikichombo.org/codec)
+  [dsp](http://github.com/zikichombo/dsp)    | transforms, convolutions, filtering | [doc](http://godoc.org/zikichombo.org/dsp)
+  [plug](http://github.com/zikichombo/plug)   | Providing routable real-time and offline plug-in like functionality. | docs not yet available.
+  [plugx](http://github.com/zikichombo/plugx)  | Providing I/O interoperability with standard plugin formats such as VST and AU. | docs not yet available
+  [ioval](http://github.com/zikichombo/ioval)  | controllers and meters | docs not yet available
 
 Each is hosted in its own git repository.
 
@@ -35,12 +35,10 @@ go get zikichombo.org/sound
 go get zikichombo.org/sio
 go get zikichombo.org/codec
 go get zikichombo.org/dsp
-go get zikichombo.org/ioval
-go get zikichombo.org/plug
-go get zikichombo.org/plugx
 ```
 
-Try the examples, build an app, read the code and join the discussions.
+Try the examples, build an app, read the code and join the discussions.  The remaining projects
+(ioval, plug, plugx) are not yet go-gettable, feel free to join in on the design/discussion phase on github.
 
 
 ### Sponsors
