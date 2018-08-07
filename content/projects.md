@@ -29,9 +29,10 @@ ZikiChombo projects have the following dependencies
   }
 ```
 
-Our development roadmap follows dependency order.  The less dependent 
-projects are the most mature.  Our bandwidth for advancing depends on
-your support and engagement.
+Our development roadmap follows dependency order.  The less dependent projects
+are the most mature.  Note that the dependencies above are coarse-grained, and
+the dependency order of development is not necessarily so.  Our bandwidth for
+advancing depends on your support and engagement.  
 
 ## Rough status and development order
 
