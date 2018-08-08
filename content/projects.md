@@ -4,7 +4,22 @@ date: 2018-08-03T19:26:43+02:00
 viz: true
 ---
 
-### Overview
+## Overview
+
+The following table summarizes the projects.
+
+Project  | Goal | GoDoc
+---------|------|------
+[sound](http://github.com/zikichombo/sound)    | core sound data types, interfaces. | [doc](http://godoc.org/zikichombo.org/sound)
+  [sio](http://github.com/zikichombo/sio)    | portable I/O without external (non-Go, non-host) dependencies.| [doc](http://godoc.org/zikichombo.org/sio)
+  [codec](http://github.com/zikichombo/codec)  | a generic codec interface and implementations/adaptors.| [doc](http://godoc.org/zikichombo.org/codec)
+  [dsp](http://github.com/zikichombo/dsp)    | transforms, convolutions, filtering | [doc](http://godoc.org/zikichombo.org/dsp)
+  [plug](http://github.com/zikichombo/plug)   | Providing routable real-time and offline plug-in like functionality. | [doc](http://godoc.org/zikichombo.org/plug)
+  [plugx](http://github.com/zikichombo/plugx)  | Providing I/O interoperability with standard plugin formats such as VST and AU. | docs not yet available
+  [ioval](http://github.com/zikichombo/ioval)  | controllers and meters | docs not yet available
+
+
+## Inter-project dependencies.
 
 ZikiChombo projects have the following dependencies
 ```viz-dot
@@ -31,7 +46,7 @@ ZikiChombo projects have the following dependencies
 Our development roadmap follows dependency order.  The less dependent projects
 are the most mature.  Note that the dependencies above are coarse-grained, and
 the dependency order of development is not necessarily so.  Our bandwidth for
-advancing depends on your support and engagement.  
+advancing depends on your [support and engagement](/contrib/).  
 
 ## Rough status and development order
 
@@ -76,6 +91,7 @@ We hope to create an ecosystem of Go sound processing plugs provided
 with the project and by third parties.  However, we estimate 
 the most efficient path to getting this working simply, reliably, and
 efficiently is to wait until the plug interface settles into beta.
+
 
 ## Guidelines
 
