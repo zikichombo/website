@@ -43,16 +43,18 @@ ZikiChombo projects have the following dependencies
   }
 ```
 
+## Rough status and development order
 Our development roadmap follows dependency order.  The less dependent projects
 are the most mature.  Note that the dependencies above are coarse-grained, and
 the dependency order of development is not necessarily so.  Our bandwidth for
 advancing depends on your [support and engagement](/contrib/).  
 
-## Rough status and development order
 
+#### sound
 The sound project is close to beta, and should be usable for 
 prototyping and testing products set for production in the near future.
 
+#### sio
 The sio project is alpha-level-functional for darwin and linux/ALSA.  Other
 platforms (ios android freebsd ..) are in varying states of readiness.  For
 example, ios support closely follows darwin support and the actual i/o
@@ -62,18 +64,23 @@ complicated but also should be able to make use of the ALSA driver atleast in
 theory.  In general, Duplex i/o interfaces and device datatypes are more likely 
 to change than capture/playback.
 
+#### codec
 The codec project has some solid codecs (eg wav), but the generic codec
 interface [is still being hashed out](https://github.com/zikichombo/codec/issues/3). 
 
+#### ioval
 The ioval project is in [discussion/proposal](https://github.com/zikichombo/ioval/issues/1) 
 stage.
 
+#### plug
 The plug project is in a "probably" late alpha state, interfaces
 can change but the design and principles remain.
 
+#### plugx
 the plugx project is in [discussion/proposal](https://github.com/zikichombo/plugx/issues/1) 
 stage.
 
+#### dsp
 the dsp project has lots of independent beta-mature code for FFT,
 convolution, etc.  The interfaces and relationships to plug project
 are under examination for real-time/streaming use.
@@ -109,7 +116,7 @@ considering taking advantage of that.
 Each project P is hosted at github.com/zikichombo/P.
 
 Each project makes use of github releases, semantic version tags,
-github issue tracking and pull requests.
+github issue tracking and pull requests, and go modules.
 
 The issue tracker is our best tool for keeping track of technical discussions
 so feel free to file an issue if only to discuss some technical aspect
