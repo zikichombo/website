@@ -101,7 +101,7 @@ to do so in a long lasting reliable way.
 ### What should happen
 Go needs to nail the architecture to be useful in this domain.  Unfortunately,
 it doesn't seem that Google in all its might is doing what it takes to get
-there.  For one thing the Core Gophers don't have audio in their culture.  For
+there.  For one thing the Core Gophers don't have audio in their culture [^2].  For
 another, Go invites fresh ways of approaching problems by taking the software
 engineering approach, which implicitly often devalues domain expertise in favor
 of the authority of plain ol CS smarts.  While that works well in some
@@ -147,3 +147,7 @@ in the forums.
 
 
 [^1]: As a bonafied PhD in applied mathematics without former DSP experience, I found this journey deep, interesting, and learnable.  I speak hence not as a bonafied DSP expert but rather as someone who takes the time to do the proofs and learn the relevant terminology and notation and to try crazy practically useless variations like inversing FFT inversion to see when it breaks things, just to learn how it works.
+
+[^2]: Update: It seems, due to serendipity, I might be wrong about that!
+
+
