@@ -23,7 +23,6 @@ ZikiChombo projects have the following dependencies
   codec->sound
   plugx->sound
   plugx->sio
-  plug->sound
   plug->ioval
   ioval->sound
   }
@@ -45,18 +44,20 @@ example, ios support closely follows darwin support and the actual i/o
 shouldn't be much work at all, but it also requires audio sessions
 configuration which we haven't yet started to address.  Android is a bit more
 complicated but also should be able to make use of the ALSA driver atleast in
-theory.  In general, Duplex i/o interfaces are more likely to change than
-capture/playback.
+theory.  In general, Duplex i/o interfaces and device datatypes are more likely 
+to change than capture/playback.
 
 The codec project has some solid codecs (eg wav), but the generic codec
-interface is still being hashed out.
+interface [is still being hashed out](https://github.com/zikichombo/codec/issues/3). 
 
-The ioval project is in discussion/proposal stage.
+The ioval project is in [discussion/proposal](https://github.com/zikichombo/ioval/issues/1) 
+stage.
 
 The plug project is in a "probably" late alpha state, interfaces
 can change but the design and principles remain.
 
-the plugx project is in discussion/proposal stage.
+the plugx project is in [discussion/proposal](https://github.com/zikichombo/plugx/issues/1) 
+stage.
 
 the dsp project has lots of independent beta-mature code for FFT,
 convolution, etc.  The interfaces and relationships to plug project
