@@ -58,7 +58,14 @@ a duty to prioritize their work based on community-wide demand.
 We are looking forward to seeing some rockin, drum thwacking, deep rhythm
 dancin' and even Mozart-or-Yo-Yo-Ma-esque gophers. Designs welcome 
 and we'd like to offer a prize to the winner.  If you donate and send us a mail
-indicating you'd like to see your dontation make some gophers rock we'll
+indicating you'd like to see your donation make some gophers rock we'll
 task the money to this prize.
+
+### Contact
+Email is our most effective mechanism for establishing 1-1 contact.  We can 
+exchange phone/video or in person after that as needed.
+<sponsor@zikichombo.org>
+
+
 
 
