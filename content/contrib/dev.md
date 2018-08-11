@@ -9,14 +9,15 @@ Developers provide support by engaging our project.
 
 ### Giving our libraries a shot.
 Using and trying to use our libraries on a test run helps.  Even if you
-don't end up doing much, it gives you the opportunity to give us feedback
-and file issues.
+don't end up doing much, it gives you the opportunity to give us feedback,
+ask questions, and file issues, all of which help the project.
 
 ### Filing issues and asking questions.
 The filing of issues comprises major and irreplacable contributions.
 It lets us track and resolve problems.  We also use the issue tracker
 for coordinating design discussions and answering questions.  There is an
-always open issue entitled "Questions" in each project for that.
+always open issue entitled "Questions" in each project for that, and
+it helps us to better organize the documentation.
 
 ### Send us pull requests
 You can send pull requests, and we can incorporate them after review.
@@ -50,4 +51,9 @@ The founders are exempt from the last requirement, but must record
 the vote nonetheless.
 
 All member voting abstentions are taken as acceptance after 2 weeks.
+
+### Contact
+For questions regarding becoming a member, upstream supply, or developer
+contributions in general, email is our best way to establish a 1-1 conversation.
+<dev-contrib@zikichombo.org>
 
