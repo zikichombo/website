@@ -12,9 +12,11 @@ Using and trying to use our libraries on a test run helps.  Even if you
 don't end up doing much, it gives you the opportunity to give us feedback
 and file issues.
 
-### Filing issues
+### Filing issues and asking questions.
 The filing of issues comprises major and irreplacable contributions.
-It lets us track and resolve problems.
+It lets us track and resolve problems.  We also use the issue tracker
+for coordinating design discussions and answering questions.  There is an
+always open issue entitled "Questions" in each project for that.
 
 ### Send us pull requests
 You can send pull requests, and we can incorporate them after review.
