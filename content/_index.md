@@ -9,9 +9,8 @@ inter-project dependencies and project roadmaps.
 Sound processing and I/O encompasses a vast landscape of functionality, touching
 on digital signal processing, "firm" real time processing where failures to
 meet deadlines renders applications useless rather than degraded, speech, music and more.  
-ZikiChombo does not aim to provide support a full coverage of this landscape alone.  Rather,
-ZikiChombo aims to be an enabler for developers, an effective library for low and
-high level applications which interoperate nicely.
+ZikiChombo aims to be an enabler for developers in a wide variety of these spaces, an 
+effective library for low and high level applications which interoperate nicely.
 
 To this end, ZikiChombo has the following sub-projects
 
