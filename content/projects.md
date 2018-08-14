@@ -129,7 +129,7 @@ adopting a policy of accepting a list of standard codes of conduct, so as
 _not_ to reserve the right to unilaterally change the code of conduct, which
 would disempower those engaging in the project.
 
-In the event you encounter difficulties, please try to work them peacefully 
+In the event you encounter difficulties, please try to work them out peacefully 
 offline.  If this is not really possible, mail us at conduct@zikichombo.org.
 
 One thing we would like to guarantee on our end is that newcomers opinions and
