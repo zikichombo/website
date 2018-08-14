@@ -123,17 +123,22 @@ so feel free to file an issue if only to discuss some technical aspect
 of the respective project.
 
 ## Code of Conduct
-We're not so into regulating behavior but we will be firm about 
-requesting respectful dialogue geared toward project and organisation goals.
+As it's early, we only assert that we will be firm about requesting respectful
+dialogue geared toward project and organisation goals.  We are considering
+adopting a policy of accepting a list of standard codes of conduct, so as
+_not_ to reserve the right to unilaterally change the code of conduct, which
+would disempower those engaging in the project.
 
-Some things to keep in mind are that newcomers opinions and questions
-are extremely valuable in achieving simplicity.  By default, the responsability 
-for newcomer confusion is on the project and organisation shoulders.  It 
-doesn't help to point them to some dark corner in a maze of documentation and
-issues, implying they should have seen that and spent months or years reading 
-everything before asking. The question could well have come up because we weren't 
-clear or organised enough.
+In the event you encounter difficulties, please try to work them peacefully 
+offline.  If this is not really possible, mail us at conduct@zikichombo.org.
 
+One thing we would like to guarantee on our end is that newcomers opinions and
+questions are extremely valuable in achieving simplicity.  By default, the
+responsability for newcomer confusion is on the project and organisation
+shoulders.  It doesn't help to point them to some dark corner in a maze of
+documentation and issues, implying they should have seen that and spent months
+or years reading everything before asking. The question could well have come up
+because we weren't clear or organised enough.
 
 
 
