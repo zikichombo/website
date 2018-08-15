@@ -5,7 +5,7 @@ draft: false
 ---
 
 ```
-We are open source for the quality of the software.
+We are open source, by and for gophers, and for the quality of the software.
 ```
 
 We divide contribution activity into 
