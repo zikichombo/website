@@ -5,12 +5,13 @@ draft: false
 ---
 
 ```
-We are open source for the quality of the software, 
-not for offering charitable free labor to enterprises.
+We are open source for the quality of the software.
 ```
 
-We divide contribution activity into [Developer Contributions](/contrib/dev/)
-and [Commercial and General Sponsorship](/contrib/sponsor/). 
+We divide contribution activity into 
+
+1. [Developer Contributions](/contrib/dev/)
+1. [Commercial and General Sponsorship](/contrib/sponsor/). 
 
 
 

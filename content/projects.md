@@ -125,9 +125,10 @@ of the respective project.
 ## Code of Conduct
 As it's early, we only assert that we will be firm about requesting respectful
 dialogue geared toward project and organisation goals.  We are considering
-adopting a policy of accepting a list of standard codes of conduct, so as
-_not_ to reserve the right to unilaterally change the code of conduct, which
-would disempower those engaging in the project.
+adopting a policy of accepting a list of standard codes of conduct for as long
+as you engage in the project, so as _not_ to reserve the right to unilaterally
+change the code of conduct, as doing so would disempower those engaging in the
+project.
 
 In the event you encounter difficulties, please try to work them out peacefully 
 offline.  If this is not really possible, mail us at conduct@zikichombo.org.
