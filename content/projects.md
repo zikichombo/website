@@ -36,6 +36,7 @@ ZikiChombo projects have the following dependencies
   plug->sound
   sio->sound
   codec->sound
+  codec->dsp
   plugx->sound
   plugx->sio
   plug->ioval
