@@ -103,15 +103,19 @@ efficiently is to wait until the plug interface settles into beta.
 
 ## Guidelines
 
-All of our projects have a strong bias towards eliminating C dependencies,
-except for code with operating system level audio support.  ALSA is at the
-limit in that it is in the linux kernel and also a separate C library.  Any
-non-Go library not provided with the base operating system with kernel level
-support is not in our interest to incorporate.
+At a high level, of our projects have a strong bias towards eliminating C dependencies,
+except for code with host operating system level audio support.  Within that space,
+we prefer to restrict the code to be as close to the kernel as possible.  For example,
+pulseaudio we can interface, but we should prefer to address ALSA first.  In this 
+way, Go projects can more easily compete with pulseaudio and consumers of ZikiChombo
+can still use it if they wish.  We are not interested in code such as portaudio or ffmpeg
+which are projects external to the base host operating system.
 
-Given ffmpeg and friends, This may hurt for a while, but it will pay off.  In
-the meantime, since apple has OS-level support for sound codecs, we are
-considering taking advantage of that.
+This may hurt for a while, but it will pay off.  In the meantime, since apple has OS-level 
+support for sound codecs, we are considering taking advantage of that.
+
+For detailed description of guidelines and project dependences, please see
+[meta](http://github.com/zikichombo/meta).
 
 ## Repositories and Code Hosting
 Each project P is hosted at github.com/zikichombo/P.
