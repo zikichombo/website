@@ -1,6 +1,6 @@
 ---
 title: "Premiers Pas"
-author: wsc
+author: Scott Cotton
 date: 2018-09-21T19:26:29+02:00
 draft: false
 ---
