@@ -45,7 +45,7 @@ Go, as well as any non-C based language, has a terrible reputation for
 reliability in the case of mass marketed low latency applications.  This
 is the case even when using very seriously engineered and established projects
 like [portaudio](http://portaudio.com) via cgo.  ZikiChombo has pushed 
-forward on this issue, engaging portaudio and golang developers to clarify
+forward on this issue, engaging [portaudio](https://lists.columbia.edu/pipermail/portaudio/2018-September/001508.html)  and [golang developers](https://groups.google.com/forum/#!topic/golang-dev/EVwSXv8JTsk)  to help clarify
 the root causes, and we have arrived at some proposed solutions.  For
 example, the addition of [rb](https://github.com/zikichombo/sio/blob/master/libsio/rb.md)
 is a first _draft_ design of a means to bypass the various problems 
